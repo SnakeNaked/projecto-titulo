@@ -1,13 +1,17 @@
 {
   "name": "projecto-titulo",
   "private": true,
+  "homepage":"https://rfcasallasm.github.io/react-github-pages/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -35,10 +39,5 @@
     "vite": "^5.2.0"
   }
 }
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-}
+
 
