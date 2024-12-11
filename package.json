@@ -5,13 +5,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "start": "node index.js"
+    "dev": "vite", // Inicia el frontend en modo desarrollo
+    "build": "tsc && vite build", // Compila TypeScript y construye el frontend
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0", // Revisar código con eslint.
+    "preview": "vite preview", // Opcionalmente revisar producción
+    "start": "node index.js" // Claramente backend se ejecuta aqui
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
